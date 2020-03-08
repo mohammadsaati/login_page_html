@@ -1,0 +1,112 @@
+
+
+@font-face {
+    font-family: 'IRANSansWeb_Medium';
+    src: url('fonts/IRANSansWeb_Medium.eot');
+    src: url('fonts/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/IRANSansWeb_Medium.woff') format('woff'),
+    url('fonts/IRANSansWeb_Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body a {
+  text-decoration: none;
+}
+body {
+  font-family: 'IRANSansWeb_Medium';
+  font-size: 16px;
+}
+.welcom-bg {
+  background-image: linear-gradient(-136deg , #39ae9b , #0beca9);
+  height: 100vh;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.text-white {
+  color: white;
+}
+
+.btn-outline-white {
+  border: 1px solid
+#fff;
+color:
+#fff;
+width: 220px;
+}
+
+.btn-outline-white:hover {
+  color: #4f4444;
+  background-color: #fff;
+}
+
+.box {
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.logo-img {
+  background-image: url('../expert.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: 40vh;
+  margin-left: -5vh;
+}
+
+.social-btn {
+  border: 1px solid
+#ccc;
+border-radius: 50%;
+height: 50px;
+width: 50px;
+padding-top: 12px;
+}
+
+.facebook:hover {
+  background-color: #2aaaf7;
+  color: #fff;
+}
+
+.google:hover {
+  color: #fff;
+  background-color: #ff5454;
+}
+
+.linkedin:hover {
+  color: #ffff;
+  background-color: #410ef4;
+}
+
+.form-bg {
+  background-color: #f9f8f8;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.my-input {
+  background-color:
+#f9f8f8;
+
+border-bottom: 1px solid
+#f9f8f8;
+
+border-radius: 0px;
+border: 0px;
+}
+
+.my-input:focus {
+  background-color: #f9f8f8;
+  border: 0px #000;
+}
+
+.form-btn {
+  border-radius: 50px;
+  width: 100%;
+}
